@@ -61,4 +61,4 @@ mensaje += "La nota más alta del grupo es: " + notaAlta + "\n";
 mensaje += "La nota más baja del grupo es: " + notaBaja + "\n";
 mensaje += "El promedio de calificaciones del grupo es: " + promedio + "\n";
 
-console.log(mensaje);
+console.log(mensaje); 
