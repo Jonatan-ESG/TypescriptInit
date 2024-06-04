@@ -1,11 +1,16 @@
 {
-    "scripts": {
-        "build": "tsc",
-        "start": "node build/src/index",
-        "dev": "nodemon"
-    },
-    "devDependencies": {
-        "nodemon": "^3.1.0",
-        "ts-node": "^10.9.2"
-    }
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/src/index",
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "readline-sync": "^1.4.10"
+  }  
 }
